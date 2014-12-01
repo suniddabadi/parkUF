@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <TextView
+        android:id="@+id/number1"
+        style="@style/CodeFont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0000ff"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/number"
+        style="@style/CodeFont"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/number1"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ff6500"
+        android:textStyle="normal" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff" />
+
+    <!-- Mobile number label -->
+
+    <TextView
+        android:id="@+id/name1"
+        style="@style/CodeFont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/name1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0000ff"
+        android:textStyle="italic" />
+    <!-- Mobile number label -->
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/CodeFont"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/name1"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ff6500"
+        android:textStyle="normal" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff" />
+
+    <TextView
+        android:id="@+id/decal1"
+        style="@style/CodeFont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/decal1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0000ff"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/decal"
+        style="@style/CodeFont"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/decal1"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ff6500"
+        android:textStyle="normal" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff" />
+
+    <TextView
+        android:id="@+id/spots1"
+        style="@style/CodeFont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/spots1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0000ff"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/spotsOpen"
+        style="@style/CodeFont"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/spots1"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ff6500"
+        android:textStyle="normal" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff" />
+
+    <TextView
+        android:id="@+id/spots2"
+        style="@style/CodeFont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/spots2"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0000ff"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/spotsTotal"
+        style="@style/CodeFont"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/spots2"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ff6500"
+        android:textStyle="normal" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff" />
+
+    <TextView
+        android:id="@+id/begin1"
+        style="@style/CodeFont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/begin1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0000ff"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/beginEnforcement"
+        style="@style/CodeFont"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/begin1"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ff6500"
+        android:textStyle="normal" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff" />
+
+    <TextView
+        android:id="@+id/end1"
+        style="@style/CodeFont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/end1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0000ff"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/endEnforcement"
+        style="@style/CodeFont"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/end1"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ff6500"
+        android:textStyle="normal" />
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+    
+    <style name="CodeFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFC505</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+</resources>
